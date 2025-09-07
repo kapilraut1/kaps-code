@@ -31,7 +31,7 @@ const Editor = ({ language, displayName, value, onChange }) => {
       </div>
       <CodeMirror
         value={value}
-        height="600px"
+        height="500px"
         theme={oneDark}
         extensions={[getExtension()]}
         onChange={(value) => onChange(value)}
